@@ -1,0 +1,243 @@
+.body {
+    background-image: url('back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.container1{
+    height: 100px;
+    margin-left: 53px;
+    margin-right: 3px;
+    border: solid #44CAB6 4px;
+    border-radius: 12px;
+    background-color: #001819;
+    width:90%
+
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display:flex;
+
+}
+.events{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #44CAB6;
+    
+  }
+  
+  .events::after {
+    content: '         ';
+    flex: 3;
+    border-bottom: 5px solid #44CAB6;
+    margin-left: 50px;
+    margin-right: 50px;
+
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #001819; /* Dark green color */
+    width:100%;
+}
+
+.navbar-brand {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #5ff3d9; /* Light green color */
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+}
+
+.navbar-item {
+    position: relative;
+    margin: 0 15px;
+    font-size: 20px;
+}
+
+.navbar-item a {
+    text-decoration: none;
+    color: #44CAB6;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.navbar-item a:hover {
+    background-color: #5ff3d9; /* Light green hover effect */
+    color: #001414; /* Dark text color on hover */
+}
+
+.navbar-item a.active {
+    background-color: #5ff3d9; /* Light green active effect */
+    color: #001414; /* Dark text color on active */
+}
+
+/* Dropdown styles */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #44CAB6; /* Dark green background for dropdown */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #001414; /* White text color for dropdown links */
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color:  #001414; /* Light green hover effect for dropdown links */
+    color:#44CAB6 ; /* Dark text color on hover */
+}
+
+.navbar-item:hover .dropdown-content {
+    display: block;
+}
+
+/* Optional: Add some padding to the main content area */
+.main-content {
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1500px){
+    .body {
+        background-image: url('back.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    .container1{
+        height: 100px;
+        margin-left: 53px;
+        margin-right: 3px;
+        border: solid #44CAB6 4px;
+        border-radius: 12px;
+        background-color: #001819;
+        width:90%
+    
+    }
+    .header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        display:flex;
+    
+    }
+    .events{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #44CAB6;
+        
+      }
+      
+      .events::after {
+        content: '         ';
+        flex: 3;
+        border-bottom: 5px solid #44CAB6;
+        margin-left: 50px;
+        margin-right: 50px;
+    
+      }
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: #001819; /* Dark green color */
+        width:100%;
+    }
+    
+    .navbar-brand {
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: #5ff3d9; /* Light green color */
+    }
+    
+    .navbar-menu {
+        list-style: none;
+        display: flex;
+    }
+    
+    .navbar-item {
+        position: relative;
+        margin: 0 15px;
+        font-size: 20px;
+    }
+    
+    .navbar-item a {
+        text-decoration: none;
+        color: #44CAB6;
+        padding: 5px 10px;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+    }
+    
+    .navbar-item a:hover {
+        background-color: #5ff3d9; /* Light green hover effect */
+        color: #001414; /* Dark text color on hover */
+    }
+    
+    .navbar-item a.active {
+        background-color: #5ff3d9; /* Light green active effect */
+        color: #001414; /* Dark text color on active */
+    }
+    
+    /* Dropdown styles */
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #44CAB6; /* Dark green background for dropdown */
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    
+    .dropdown-content a {
+        color: #001414; /* White text color for dropdown links */
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    
+    .dropdown-content a:hover {
+        background-color:  #001414; /* Light green hover effect for dropdown links */
+        color:#44CAB6 ; /* Dark text color on hover */
+    }
+    
+    .navbar-item:hover .dropdown-content {
+        display: block;
+    }
+    
+    /* Optional: Add some padding to the main content area */
+    .main-content {
+        padding: 20px;
+    }
+    
+    
+}
